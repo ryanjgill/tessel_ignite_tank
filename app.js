@@ -44,8 +44,6 @@ function rightMotor(v1, v2) {
   pin3.output(v2)
 }
 
-
-
 function forward() {
   console.log('forward!')
   leftMotor(1, 0)
