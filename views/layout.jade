@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='icon', type='image/png', sizes='192x192', href='/images/android-icon-192x192.png')
+  body
+    block content
+
+  script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js')
+  script(src='//cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js')
+  script(src='/javascripts/carControls.js')
+
+  block page_scripts

@@ -1,0 +1,32 @@
+{
+  "name": "tessel-ignite-tank",
+  "version": "1.1.0",
+  "description": "Tessel 2 Ignite RC tank hack. Replacing the internals of a Ignite RC tank with a Tessel 2 microcontroller and controlling it using websockets.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "astro": "^0.9.2"
+  },
+  "scripts": {
+    "sass": "astro sass --input public/stylesheets/ --output public/stylesheets/",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "www.github.com/ryanjgill/tessel_ignite_tank"
+  },
+  "keywords": [
+    "Tessel 2"
+  ],
+  "license": "MIT",
+  "author": "Ryan Gill"
+}

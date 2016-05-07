@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  #main
+    h1=title
+    p I'm going to use the MKR1000 along with Johnny-Five and Node to control a New Bright RC car over wifi.
+    #controls
+      #steering
+        #left.btn-big.btn-big-left Left
+        #right.btn-big.btn-big-right Right
+      #power
+        #reverse.btn-big.btn-big-reverse Reverse
+        #forward.btn-big.btn-big-forward Forward
+
+block page_scripts
+  script(src='/javascripts/carControls.js')
+
