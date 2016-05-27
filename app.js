@@ -34,6 +34,7 @@ pin1.output(0)
 pin2.output(0)
 pin3.output(0)
 
+// defining motors
 function leftMotor(v1, v2) {
   pin0.output(v1)
   pin1.output(v2)
@@ -44,6 +45,7 @@ function rightMotor(v1, v2) {
   pin3.output(v2)
 }
 
+// defining movements
 function forward() {
   console.log('forward!')
   leftMotor(1, 0)
